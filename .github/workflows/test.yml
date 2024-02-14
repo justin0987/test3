@@ -11,7 +11,7 @@ jobs:
     steps:
       - name: Build
         run: |
-          ls -lah /home/runner/work/_actions/actions/upload-artifact/v4/dist/index.js
+          ls -lah /home/runner/work/_actions/actions/upload-artifact/v4/dist/upload/index.js
   
       - uses: actions/upload-artifact@v4
         with:
